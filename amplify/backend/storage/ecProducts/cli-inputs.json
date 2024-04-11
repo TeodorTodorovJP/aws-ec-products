@@ -1,0 +1,26 @@
+{
+  "resourceName": "ecProducts",
+  "tableName": "ecProductsTable",
+  "partitionKey": {
+    "fieldName": "id",
+    "fieldType": "string"
+  },
+  "sortKey": {
+    "fieldName": "catageory",
+    "fieldType": "string"
+  },
+  "gsi": [
+    {
+      "name": "byCategoryPrice",
+      "partitionKey": {
+        "fieldName": "catageory",
+        "fieldType": "string"
+      },
+      "sortKey": {
+        "fieldName": "price",
+        "fieldType": "number"
+      }
+    }
+  ],
+  "triggerFunctions": []
+}
