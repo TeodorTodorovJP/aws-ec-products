@@ -4,5 +4,6 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "amplify:productsFunction": "pwd && cd amplify/backend/function/productsFunction/lib && pwd && npm install && npm run build && cd .. && cd .. && cd .. && cd .."
   }
 }
