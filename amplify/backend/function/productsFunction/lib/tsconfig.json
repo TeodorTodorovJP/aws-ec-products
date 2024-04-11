@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "lib": ["dom", "esnext"],
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "outDir": "../src",
+    "baseUrl": "./",
+    "rootDir": "./",
+    "paths": {
+      "src": ["./"]
+    },
+
+
+    "target": "ES2020",
+  }
+}
