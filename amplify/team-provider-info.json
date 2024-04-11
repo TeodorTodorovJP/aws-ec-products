@@ -15,7 +15,7 @@
       "function": {
         "productsFunction": {
           "deploymentBucketName": "amplify-ecproducts-staging-2a42b-deployment",
-          "s3Key": "amplify-builds/productsFunction-2f326a693552434a6246-build.zip"
+          "s3Key": "amplify-builds/productsFunction-4d5a6d714f506b352b43-build.zip"
         }
       },
       "storage": {
